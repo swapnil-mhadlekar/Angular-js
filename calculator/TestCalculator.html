@@ -1,0 +1,44 @@
+<html>
+
+<head>
+    <script type="text/javascript" src="TestCalculator.js"></script>
+</head>
+
+<body>
+    <form name="Calc">
+        <table BORDER=3>
+            <tr>
+                <td>
+                    <input id="display" type="text" name="input" Size="18">
+                    <br>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" name="one" value=" 7 " OnClick="Calculator.concat('7','display')">
+                    <input type="button" name="two" value=" 8 " OnCLick="Calculator.concat('8','display')">
+                    <input type="button" name="three" value=" 9 " OnClick="Calculator.concat('9','display')">
+                    <input type="button" name="add" value=" + " OnClick="Calculator.concat(' + ','display')">
+                    <br>
+                    <input type="button" name="four" value=" 4 " OnClick="Calculator.concat('4','display')">
+                    <input type="button" name="five" value=" 5 " OnCLick="Calculator.concat('5','display')">
+                    <input type="button" name="six" value=" 6 " OnClick="Calculator.concat('6','display')">
+                    <input type="button" name="subtract" value=" - " OnClick="Calculator.concat(' - ','display')">
+                    <br>
+                    <input type="button" name="seven" value=" 1 " OnClick="Calculator.concat('1','display')">
+                    <input type="button" name="eight" value=" 2 " OnCLick="Calculator.concat('2','display')">
+                    <INPUT type="button" name="nine" value=" 3 " OnClick="Calculator.concat('3','display')">
+                    <input type="button" name="multiply" value=" x " OnClick="Calculator.concat(' * ','display')">
+                    <br>
+                    <input type="button" name="clear" value=" C " OnClick="Calculator.clear('display')">
+                    <input type="button" name="zero" value=" 0 " OnClick="Calculator.concat('0','display')">
+                    <input type="button" name="equals" value=" = " OnClick="Calculator.evaluate('display')">
+                    <input type="button" name="divide" value=" / " OnClick="Calculator.concat(' / ','display')">
+                    <br>
+                </td>
+            </tr>
+        </table>
+    </form>
+</body>
+
+</html>
